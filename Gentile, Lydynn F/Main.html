@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laufey's Fandom</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/60300340d27ffb2c6946ccbe/a391365c-9b03-402e-b62d-1d7f41026d57/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Laufey's Gallery</h1>
+            <nav>
+                <ul>
+                    <li><a href="Main.html">Home</a></li>
+                    <li><a href="Biography.html">Biography</a></li>
+                    <li><a href="Music.html">Music</a></li>
+                    <li><a href="Tour.html">Tours</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="container">
+                <img src="Photos/Portrait.jpg" alt="Laufey Lín Bing Jónsdóttir" class="center">
+                <h2>Welcome to Laufey's Fandom!</h2>
+                <p class="indent" >Step into the captivating realm of Laufey Lín Bing Jónsdóttir, where her enchanting melodies weave tales of emotion and wonder. Delve into her mesmerizing music, experience the magic of her live performances, and discover the myriad facets of her artistic journey.
+
+                    Embark on a musical odyssey with Laufey as she takes you on a journey through her soulful compositions and evocative lyrics. From soul-stirring ballads to lively tunes that make you sway, her music transcends boundaries and resonates with the depths of human experience.
+                    
+                    Join her on tour and immerse yourself in the electric atmosphere of her live shows. Feel the energy pulsating through the crowd as Laufey's voice fills the air, transporting you to a place where time stands still and every note is imbued with passion.
+                    
+                    But Laufey is more than just a musician; she's a storyteller, a dreamer, and a beacon of inspiration. Get to know the person behind the music, uncovering the stories and inspirations that shape her artistry.
+                    
+                    Experience the world of Laufey Lín Bing Jónsdóttir — where melodies meet emotions, and every note is a gateway to a new adventure.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Laufey Fandom. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
